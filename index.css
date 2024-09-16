@@ -1,0 +1,180 @@
+html, body {
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.landing {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fgame-background&psig=AOvVaw0LFEfFM5WrG4CcUOnTUqXj&ust=1726292388864000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCk_ryav4gDFQAAAAAdAAAAABAI');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+.cover-photo {
+    border: 3px solid #fff;
+}
+
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar .nav-link {
+    color: #fffbfb;
+    font-weight: 500;
+}
+
+
+.navbar .nav-link:hover {
+    color: #007bff;
+}
+
+
+#about {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+
+#projects {
+    padding: 5rem 0;
+}
+
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+#tools {
+    padding: 5rem 0;
+}
+
+
+#tools h2 {
+    margin-bottom: 2rem;
+}
+
+
+#tools img {
+    transition: transform 0.3s ease;
+}
+
+
+#tools img:hover {
+    transform: scale(1.1);
+}
+
+
+#contact {
+    padding: 5rem 0;
+}
+
+
+#contact h2 {
+    margin-bottom: 2rem;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+form .btn {
+    background-color: #007bff;
+    border: none;
+}
+
+
+form .btn:hover {
+    background-color: #0056b3;
+}
+
+
+.text-center a {
+    margin: 0 0.5rem;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1.5rem 0;
+}
+
+
+footer p {
+    margin: 0;
+    color: #777;
+}
+
+
